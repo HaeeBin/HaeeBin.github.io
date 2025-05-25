@@ -18,7 +18,7 @@ last_modified_at: 2025-05-20
 # 리텐션(Retention)
 ## 1. 리텐션 분석의 큰 흐름
 
-![](./assets/images/posts_img/sql_post/image.png)
+![](/Users/haebin/Desktop/haeb/HaeeBin.github.io/assets/images/posts_img/sql_post/image.png)
 
 <br><br>
 
