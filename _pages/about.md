@@ -18,32 +18,38 @@ author_profile: true
 ▪ 더 나은 방식이 있다고 생각되면, 질문하고 시도해보며 개선해 나갑니다. <br>
 ▪ 학습과 프로젝트 과정에서의 시행착오와 성장을 기록하고 공유하는 것을 중요하게 생각하여 Notion, 블로그, GitHub에 정리하고 있습니다. <br>
 
+<br>
+
 ## 🧩 Skill
 
-#### Analysis & Development
+#### **Analysis & Development**
 
 ▪ Python (Pandas, Numpy, Selenium, BeautifulSoup) <br>
 ▪ SQL <br>
 ▪ FastAPI, Django <br>
 ▪ LangChain, LangGraph, Hugging Face Transformers <br>
 
-#### Workflow & Tools
+#### **Workflow & Tools**
 
 ▪ Apache Airflow, Tableau <br>
 ▪ Docker, GCP <br>
 ▪ GitHub, Notion, Slack, Teams <br>
 
+<br>
+
 ## 🖥 Work Experience
 
 > **AI그룹 기술센터 인턴** 2024.08 ~ 2024.10 
-##### LLM 모델을 활용하여 AI 서비스 개발 
+##### **LLM 모델을 활용하여 AI 서비스 개발**
 ▪ AI 챗봇 설계 프로젝트에서 산업별 맞춤형 챗봇 개발 참여 <br>
 ▪ Docker 기반 개발 환경 구축 및 서비스 배포 <br>
 ▪ RESTful API를 설계 및 개발  <br>
 
+<br><br>
+
 ## 🧗🏻 Personal Experience & Projects
 
-#### 🔗 IT & Statistics Field
+#### 🔗 **IT & Statistics Field**
 
 > **영화 박스오피스 및 리뷰 데이터 수집·분석 및 시각화 대시보드 제작** 2025.03.25~ 2025.04.14   
 ##### 매일 업로드되는 박스오피스 데이터와 영화 리뷰 데이터로 영화 시장 분석과 영화 리뷰에 대한 분석을 하여 시각화 대시보드를 구축한 프로젝트 
@@ -63,6 +69,8 @@ author_profile: true
 ▪ Selenium 을 활용해 채용 공고 , 기업 리뷰 등 핵심 정보 수 집 후 DB 저장 <br>
 ▪ Airflow DAG 로 파이프라인을 구성해 매일 정해진 시간에 수집 및 업데이트 자동 실행 <br>
 
+<br>
+
 ## 📚 Edu
 
 <details>
@@ -81,6 +89,8 @@ author_profile: true
 
 </div>
 </details>
+
+<br>
 
 ## 📜 Certificate 
 
