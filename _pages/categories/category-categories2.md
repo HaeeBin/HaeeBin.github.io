@@ -1,9 +1,9 @@
 ---
-title: "Categories2"
+title: "AI"
 layout: category
-permalink: /categories/categories2/
+permalink: /categories/AI/
 author_profile: true
-taxonomy: Categories2
+taxonomy: category
 sidebar:
   nav: "categories"
 ---

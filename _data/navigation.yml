@@ -17,10 +17,10 @@ categories:
     children:
       - title: "SQL"
         url: /categories/SQL/
-      - title: "Categories2"
-        url: /categories/categories2/
-      - title: "Categories3"
-        url: /categories/categories3/
+      - title: "AI"
+        url: /categories/AI/
+      - title: "Data Engineering"
+        url: /categories/data_engineering/
       - title: "Categories4"
         url: /categories/categories4/
 

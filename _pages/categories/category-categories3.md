@@ -1,9 +1,9 @@
 ---
-title: "Categories3"
+title: "Data Engineering"
 layout: category
-permalink: /categories/categories3/
+permalink: /categories/data_engineering/
 author_profile: true
-taxonomy: Categories3
+taxonomy: category
 sidebar:
   nav: "categories"
 ---
