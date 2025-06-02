@@ -26,10 +26,10 @@ categories:
       - title: "Categories4"
         url: /categories/categories4/
 
-  - title: "Title2"
+  - title: "TIL (Today I Learned)"
     children:
-      - title: "Categories5"
-        url: /categories/categories5/
+      - title: "6월 - Python"
+        url: /categories/til_python/
       - title: "Categories6"
         url: /categories/categories6/
 
