@@ -17,7 +17,7 @@ last_modified_at: 2025-06-02
 ---
 # 2025-06-02 · Day 19
 
-> **일독일행(一讀一行) — 하루에 한 가지는 반드시 가져간다**
+> **일독일행 — 하루에 한 가지는 반드시 가져간다**
 > 
 > _“오늘의 하나:_ **plotly.express**”
 
@@ -27,11 +27,12 @@ last_modified_at: 2025-06-02
 - Plotly는 웹 기반의 인터랙티브한 시각화를 지원하는 Python 라이브러리로, `plotly.express`를 사용하면 간결한 코드로 다양한 그래프를 생성할 수 있다.
 - 이번 실습에서는 산점도, 선 그래프, 막대 그래프, 파이 차트 등 기본 차트를 다뤘고, `hovertemplate`, `animation_frame`, `facet_row` 등 고급 기능도 실습했다.
 - 또한 `plotly.graph_objects`와 `make_subplots`를 활용해 복합 레이아웃과 3D 시각화 구성 방법도 다뤘다.
+  
 ---
 
 ## Keywords Hierarchy
 
-| 익숙한 개념 ✅        | 조금 아는 개념 🔍     | 잘 모르는 개념 ❓     | 전혀 새로운 개념 🚀 |
+| 익숙한 개념 ✅   | 조금 아는 개념 🔍 | 잘 모르는 개념 ❓ | 전혀 새로운 개념 🚀 |
 | --------------- | --------------- | -------------- | ------------ |
 | pandas | subplot | plotly.express, hovertemplate | volume rendering, 3D 시각화 |
 
