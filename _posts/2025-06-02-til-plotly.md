@@ -5,7 +5,9 @@ excerpt: "TIL, Plotly, Python"
 categories:
   - til_python
 tags:
-  - [TIL, Python, Plotly]
+  - TIL
+  - Python
+  - Plotly
 
 permalink: /til_python/0602
 
