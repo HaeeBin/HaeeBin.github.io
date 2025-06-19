@@ -1,0 +1,91 @@
+{% assign sum = site.posts | size %}
+
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <li>
+            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
+      </li>
+      <li>
+        <span class="nav__sub-title">Study</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "AI" %}
+                        <li><a href="/categories/ai" class="">AI({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "SQL" %}
+                        <li><a href="/categories/sql" class="">SQL({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Data-Engineering" %}
+                        <li><a href="/categories/data-engineering" class="">데이터 엔지니어링({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Data Analytics" %}
+                        <li><a href="/categories/data-analytics" class="">데이터 분석({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      </li>
+      <li>
+        <span class="nav__sub-title">TIL(Today I Learned)</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "til-2025" %}
+                        <li><a href="/categories/til-2025" class="">2025.06 ~({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            {% comment %} <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ADsP" %}
+                        <li><a href="/categories/adsp" class="">ADsP 데이터분석준전문가({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Bigboon" %}
+                        <li><a href="/categories/bigboon" class="">빅데이터 분석기사({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "SQLd" %}
+                        <li><a href="/categories/sqld" class="">SQLd SQL개발자({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Cumhwal" %}
+                        <li><a href="/categories/cumhwal" class="">컴퓨터활용능력 1급({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul> {% endcomment %}
+      </li>
+      <li>
+        <span class="nav__sub-title">etc</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Life" %}
+                        <li><a href="/categories/life" class="">Life({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      </li>
+  </ul>
+</nav>
+
