@@ -46,7 +46,7 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Data Analytics" %}
+                    {% if category[0] == "Data-Analytics" %}
                         <li><a href="/categories/data-analytics" class="">데이터 분석({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
