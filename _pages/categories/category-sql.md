@@ -1,5 +1,5 @@
 ---
-title: "SQL"
+title: "Database와 SQL에 대해 공부하자!"
 layout: archive
 permalink: categories/sql
 author_profile: true
