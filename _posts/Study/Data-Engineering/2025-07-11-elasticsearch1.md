@@ -1,5 +1,5 @@
 ---
-title: "Elasticsearch 개념을 알아보자!"
+title: "Elasticsearch 개념을 알아보고 설치해보기!"
 excerpt: "Lucene, Elasticsearch, data engineering, 검색엔진, 오픈소스"
 
 categories:
@@ -40,7 +40,7 @@ last_modified_at: 2025-07-11
 
 ![Lucene 구성요소](/assets/images/posts_img/data_engineering_posts/lucene-구조.png)
 
-✅ 색인(Indexing) 단계
+**✅ 색인(Indexing) 단계**
 - 문서를 읽고, 이를 색인하여 검색 가능한 형태로 저장하는 과정
 
 <br>
@@ -68,7 +68,7 @@ last_modified_at: 2025-07-11
 
 <br>
 
-✅ 검색(Querying) 단계
+**✅ 검색(Querying) 단계**
 - 색인이 완료된 후에는 사용자의 검색어에 따라 관련 문서를 찾아 반환함
 
 <br>
@@ -204,9 +204,47 @@ last_modified_at: 2025-07-11
 <br>
 
 - 첫 실행 시 초기 비밀번호와 키바나 연결을 위한 토큰 값을 제공함
+  - 로그에 `Password for elastic user .....` 적힌 부분 찾아서 비민번호 따로 저장해두기
+  - 비밀번호 있는 근처에 `Kibana..........Copy the following enrollment token......` 부분 찾아서 토큰도 따로 저장해두기
 
 <br>
 
 > **비밀번호를 찾지 못했다면?**
-> 
- 
+> 비밀번호 초기화를 하라는 말이 많이 나오지만 나의 경우 사용자를 새로 생성해주었음
+> 1. PowerShell 또는 CMD에서 다음 경로로 이동:
+> `cd C:\elasticsearch-9.0.3\bin` -> 설치 경로로 이동
+><br>
+> 2. `.\elasticsearch-users.bat useradd [생성할 ID] -p [패스워드] -r superuser` 명령어 실행
+>   - 단, password를 너무 짧게 하면 에러 발생 가능 `ERROR: Invalid password...passwords must be at least [6] characters long`
+><br>
+> 3. elasticsearch 실행 중인 터미널 종료 후 다시 실행하기. (파일 경로로 이동 후 다시 실행) `.\elasticsearch.bat`
+
+<br>
+
+- Elasticsearch가 잘 설치되었는지 확인해보기
+  - CMD에서 `curl -u admin https://localhost:9200 --insecure` 했을 때 결과가 나오면 성공
+  
+  ```PowerShell
+    {
+    "name" : "DESKTOP-DGP06C0",
+    "cluster_name" : "elasticsearch",
+    "cluster_uuid" : "M-RJ5RliR-ePFEgAcL0a-g",
+    "version" : {
+        "number" : "9.0.3",
+        "build_flavor" : "default",
+        "build_type" : "zip",
+        "build_hash" : "cc7302afc8499e83262ba2ceaa96451681f0609d",
+        "build_date" : "2025-06-18T22:09:56.772581489Z",
+        "build_snapshot" : false,
+        "lucene_version" : "10.1.0",
+        "minimum_wire_compatibility_version" : "8.18.0",
+        "minimum_index_compatibility_version" : "8.0.0"
+    },
+    "tagline" : "You Know, for Search"
+    }
+  ```
+
+  <br>
+
+  - 혹은 브라우저에서 `https://localhost:9200`하고 설정했던 ID와 Password를 입력한 후에 터미널과 같은 결과 화면이 나오면 성공!
+  ![Elasticsearch 브라우저 테스트](/assets/images/posts_img/data_engineering_posts/elasticsearch-install-success.PNG)
