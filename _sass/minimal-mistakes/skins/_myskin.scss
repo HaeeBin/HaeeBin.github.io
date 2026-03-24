@@ -7,8 +7,12 @@ $background-color: #ffffff !default;
 $text-color: #202020 !default;
 $primary-color: #167916 !default;
 $border-color: mix(#202020, $background-color, 20%) !default;
-$code-background-color: #b8b8b8 !default;
-$code-background-color-dark: #a7a7a7 !default;
+$code-background-color: #e8e8e8 !default;
+$code-background-color-dark: #d0d0d0 !default;
+
+/* 코드 블록 배경 */
+$base00: #f0f0f0 !default; // 코드 블록 배경 (연한 회색)
+$base05: #2d2d2d !default; // 코드 텍스트 색
 $form-background-color: mix(rgb(255, 255, 255), $background-color, 15%) !default;
 $footer-background-color: mix(rgb(155, 155, 155), $background-color, 20%) !default;
 $link-color: mix(#0e836a, $text-color, 40%) !default;
