@@ -8,4 +8,10 @@
 @import "minimal-mistakes"; // main partials
 
 
-/* Gaegu는 Google Fonts에서 로드 */
+/* 메모먼트 꾹꾹체 */
+@font-face {
+  font-family: 'memomentKkukKkuk';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2508-2@1.0/memomentKkukKkuk.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
