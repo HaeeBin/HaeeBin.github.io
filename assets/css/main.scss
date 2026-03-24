@@ -4,14 +4,13 @@
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
-
-
-/* 메모먼트 꾹꾹체 */
+/* 메모먼트 꾹꾹체 - @import 전에 선언해야 적용됨 */
 @font-face {
   font-family: 'memomentKkukKkuk';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2508-2@1.0/memomentKkukKkuk.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
