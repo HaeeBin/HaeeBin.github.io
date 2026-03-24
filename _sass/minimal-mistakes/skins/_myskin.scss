@@ -11,8 +11,8 @@ $code-background-color: #e8e8e8 !default;
 $code-background-color-dark: #d0d0d0 !default;
 
 /* 코드 블록 배경 */
-$base00: #f0f0f0 !default; // 코드 블록 배경 (연한 회색)
-$base05: #2d2d2d !default; // 코드 텍스트 색
+$base00: #f0f0f0; // 코드 블록 배경 (연한 회색)
+$base05: #2d2d2d; // 코드 텍스트 색
 $form-background-color: mix(rgb(255, 255, 255), $background-color, 15%) !default;
 $footer-background-color: mix(rgb(155, 155, 155), $background-color, 20%) !default;
 $link-color: mix(#0e836a, $text-color, 40%) !default;
@@ -29,4 +29,17 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 
 .ais-search-box .ais-search-box--input {
   background-color: $form-background-color;
+}
+
+/* 코드 블록 직접 스타일 */
+div.highlighter-rouge,
+figure.highlight {
+  background: #f0f0f0 !important;
+  color: #2d2d2d !important;
+  border: 1px solid #d0d0d0 !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08) !important;
+}
+
+pre.highlight, pre {
+  background: #f0f0f0 !important;
 }
