@@ -18,6 +18,7 @@
             </li>
           {%- endfor -%}
         </ul>
+        <button id="dark-mode-toggle" class="dark-mode-toggle" type="button" aria-label="다크모드 토글">🌙</button>
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
